@@ -1,0 +1,16 @@
+.container {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 50px;
+  color: white;
+}
+
+.container h1 {
+  font-size: 1.5rem;
+}
+
+.rightSide h1 {
+  font-weight: 300;
+}
