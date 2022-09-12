@@ -1,0 +1,24 @@
+.navbar {
+  background-color: red;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.categories {
+  margin-top: 50px;
+}
+.aCategory {
+  display: flex;
+  align-items: center;
+}
+
+.aCategory p {
+  font-size: 1.5rem;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}

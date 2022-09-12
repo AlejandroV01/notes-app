@@ -1,0 +1,15 @@
+/* .navAndHome {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.navAndHome div:first-child {
+  grid-column: 1/3;
+}
+
+.navAndHome div:last-child {
+  grid-column: 3/-1;
+}
+.navAndHome div {
+  grid-row: 1/2;
+} */

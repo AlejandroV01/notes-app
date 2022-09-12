@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import styles from "./App.module.css";
 // import Footer from "./components/footer/Footer";
 import Nav from "./components/nav/Nav";
 import Sidebar from "./components/side-bar/Sidebar";
@@ -8,8 +9,10 @@ function App() {
   return (
     <>
       <Nav />
-      <Sidebar />
-      <Home />
+      <div className={styles.navAndHome}>
+        {/* <Sidebar /> */}
+        <Home />
+      </div>
     </>
   );
 }
