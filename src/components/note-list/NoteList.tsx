@@ -1,7 +1,12 @@
 import React from "react";
 import Note from "../note/Note";
 import styles from "./NoteList.module.css";
-const NoteList = ({ notes }) => {
+
+interface Props {
+  notes: any;
+}
+
+const NoteList = ({ notes }: Props) => {
   return (
     <div className={styles.notesDiv}>
       <Note />

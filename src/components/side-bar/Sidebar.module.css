@@ -1,9 +1,13 @@
 .navbar {
   background-color: red;
-  height: calc(100vh - 60px);
+  height: calc(100vh);
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 300px;
+  position: absolute;
+  z-index: 9999;
+  top: 0px;
 }
 
 .categories {
